@@ -14,4 +14,5 @@ import java.util.concurrent.Future;
  */
 public interface DocumentSimilarityEstimator {
 	public Future<Double> cosineSimilarity(String document1, String document2, int shingleSize, boolean wordGranularity);
+	public void Change();
 }
